@@ -13,7 +13,7 @@
         <!--Aadhar Number View Controller-->
         <scene sceneID="ON4-VL-5ir">
             <objects>
-                <viewController storyboardIdentifier="AadharNumberVC" id="Vev-41-bLM" customClass="AadharNumberViewController" customModule="KhataFrameworkDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AadharNumberVC" id="Vev-41-bLM" customClass="AadharNumberViewController" customModule="khataframework" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xRi-ui-2Mh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -39,7 +39,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="sendData:" destination="Vev-41-bLM" eventType="touchUpInside" id="AeA-MI-END"/>
+                                    <action selector="sendData:" destination="Vev-41-bLM" eventType="touchUpInside" id="skT-9X-GmQ"/>
                                 </connections>
                             </button>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please enter aadhar number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ep-56-X2k">
@@ -69,8 +69,8 @@
                         <viewLayoutGuide key="safeArea" id="XOc-su-PKx"/>
                     </view>
                     <connections>
-                        <outlet property="aadharNumberErrorLabel" destination="8ep-56-X2k" id="VeZ-cz-ZWx"/>
-                        <outlet property="aadharNumberTextFeild" destination="F26-23-FxM" id="2jA-9T-hTg"/>
+                        <outlet property="aadharNumberErrorLabel" destination="8ep-56-X2k" id="3wn-ZX-1Cr"/>
+                        <outlet property="aadharNumberTextFeild" destination="F26-23-FxM" id="GAU-7l-dGl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bpx-jP-KOA" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
  s.name         = "khataframework"
- s.version      = "1.0.1"
+ s.version      = "1.0.3"
  s.summary      = "A short description of DemoFramework."
  s.description  = "A short description of DemoFramework"
 
@@ -14,11 +14,13 @@ Pod::Spec.new do |s|
  s.platform     = :ios, "10.0"
 
 
- s.source        = { :git => 'https://github.com/windeor/khatapod.git',:tag => "1.0.1" }
+ s.source        = { :git => 'https://github.com/windeor/khatapod.git',:tag => "1.0.3" }
  s.swift_version = "4.0"
  s.source_files = 'KhataFrameworkDemo/**/*.{h,m,swift}'
  
  s.resources = ['KhataFrameworkDemo/**/*.{storyboard}']
+ 
+ 
  
  
 

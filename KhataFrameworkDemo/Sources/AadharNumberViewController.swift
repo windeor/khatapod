@@ -13,7 +13,7 @@ open class AadharNumberViewController: UIViewController {
     
     
     required public init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        super.init(coder: aDecoder)
     }
     
     @IBOutlet weak var aadharNumberTextFeild: UITextField!
@@ -22,11 +22,16 @@ open class AadharNumberViewController: UIViewController {
     
     override open func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func sendData(_ sender: UIButton) {
+    
+    
+    
+    
+    @IBAction open func sendData(_ sender: UIButton) {
+        print("clicked me")
         if(aadharNumberTextFeild.text == ""){
             aadharNumberErrorLabel.isHidden = false
         }else{
