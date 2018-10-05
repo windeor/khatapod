@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA0D33C921671C4600AB0737 /* khataapp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA0D33C821671C4600AB0737 /* khataapp.storyboard */; };
+		BA0D33CC21671C9000AB0737 /* AadharNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0D33CB21671C9000AB0737 /* AadharNumberViewController.swift */; };
 		BACE889121666484002640CE /* KhataFrameworkDemo.h in Headers */ = {isa = PBXBuildFile; fileRef = BACE888F21666484002640CE /* KhataFrameworkDemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BACE8898216664E0002640CE /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACE8897216664E0002640CE /* Service.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA0D33C821671C4600AB0737 /* khataapp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = khataapp.storyboard; sourceTree = "<group>"; };
+		BA0D33CB21671C9000AB0737 /* AadharNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AadharNumberViewController.swift; sourceTree = "<group>"; };
 		BACE888C21666484002640CE /* KhataFrameworkDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KhataFrameworkDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BACE888F21666484002640CE /* KhataFrameworkDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KhataFrameworkDemo.h; sourceTree = "<group>"; };
 		BACE889021666484002640CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -29,6 +33,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA0D33CA21671C6600AB0737 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				BA0D33CB21671C9000AB0737 /* AadharNumberViewController.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		BACE888221666484002640CE = {
 			isa = PBXGroup;
 			children = (
@@ -48,9 +60,11 @@
 		BACE888E21666484002640CE /* KhataFrameworkDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BA0D33CA21671C6600AB0737 /* Sources */,
 				BACE888F21666484002640CE /* KhataFrameworkDemo.h */,
 				BACE889021666484002640CE /* Info.plist */,
 				BACE8897216664E0002640CE /* Service.swift */,
+				BA0D33C821671C4600AB0737 /* khataapp.storyboard */,
 			);
 			path = KhataFrameworkDemo;
 			sourceTree = "<group>";
@@ -124,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA0D33C921671C4600AB0737 /* khataapp.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA0D33CC21671C9000AB0737 /* AadharNumberViewController.swift in Sources */,
 				BACE8898216664E0002640CE /* Service.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
